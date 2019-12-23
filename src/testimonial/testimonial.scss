@@ -1,0 +1,31 @@
+.testimonial {
+  min-height: 100vh;
+  background-color: #fff;
+
+  &-title {
+    text-align: center;
+    padding: 40px 10px;
+
+    &--strong {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    &--info {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    &--img {
+      padding-bottom: 50px;
+    }
+  }
+
+  .slider {
+    display: inline-block;
+    width: 90%;
+
+    padding: 0 20px;
+    padding-bottom: 50px;
+  }
+}

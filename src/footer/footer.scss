@@ -1,0 +1,27 @@
+.footer {
+  height: 175px;
+  width: 100%;
+  background-color: #161828;
+
+  .middle {
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &-title {
+      text-align: center;
+    &--copyright {
+      color: #76777f;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    &--label {
+      color: #76777f;
+      font-size: 18px;
+    }
+  }
+}
