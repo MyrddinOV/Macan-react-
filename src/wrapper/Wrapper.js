@@ -6,7 +6,7 @@ import Services from '../services/Services'
 import PortfolioV2 from '../portfolio/PortfolioV2'
 import Testimonial from '../testimonial/Testimonial'
 import Map from '../map/Map'
-import Contact from '../contact/Contact'
+import Contact from '../Contact/Contact'
 import Footer from '../footer/Footer'
 
 function MainPage() {
