@@ -93,7 +93,7 @@ class Header extends React.Component {
 
                                 <li className='nav-list_item'>
                                 <Link className='nav-list_link' {...getScrollProps({
-                                        to: 'Testimonial'
+                                        to: 'testimonial'
                                     })}>Testimonial</Link>
                                 </li>
 
