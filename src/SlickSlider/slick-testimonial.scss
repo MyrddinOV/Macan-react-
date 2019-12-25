@@ -1,0 +1,56 @@
+.slider-container {
+  width: 100%;
+  .slider-photo {
+    width: 270px;
+    height: 270px;
+    border-radius: 270px;
+    background-color: #7b7b7b;
+    border: 5px solid #ebebeb;
+    float: left;
+
+    @media (max-width: 1000px) {
+      width: 170px;
+      height: 170px;
+      border-radius: 170px;
+    }
+    @media (max-width: 650px) {
+      float: none;
+      margin: 0 auto;
+    }
+  }
+
+  .slider-text {
+    padding: 20px 0 20px 320px;
+    // width: 100%;
+
+    @media (max-width: 1000px) {
+      padding-left: 220px;
+    }
+
+    @media (max-width: 650px) {
+      margin: 0 auto;
+      padding: 20px 0 20px 0;
+    }
+
+    &--quote {
+      font-size: 18px;
+      text-indent: 1.8em;
+      padding-bottom: 20px;
+
+      @media (max-width: 1000px) {
+        font-size: 14px;
+      }
+    }
+
+    &--person {
+      font-size: 24px;
+      font-weight: bold;
+
+      @media (max-width: 1000px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
