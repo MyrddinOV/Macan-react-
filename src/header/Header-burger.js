@@ -1,5 +1,5 @@
 import React from 'react'
-import MainContainer from '../containers/containers'
+import MainContainer from '../Containers/containers'
 import '../containersSCSS/header-burger.scss'
 import '../containersSCSS/header.scss'
 

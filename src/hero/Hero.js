@@ -1,5 +1,5 @@
 import React from 'react';
-import MainContainer from '../containers/Containers'
+import MainContainer from '../Containers/Containers'
 import './hero.scss'
 import SimpleSliderHero from '../slick-slider/SlickHero'
 import { Element } from 'react-scroll'

@@ -1,5 +1,5 @@
 import React from 'react'
-import MainContainer from '../containers/Containers'
+import MainContainer from '../Containers/Containers'
 import { Link } from 'react-scroll'
 import './header-burger.scss'
 import './header.scss'

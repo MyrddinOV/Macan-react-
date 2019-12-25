@@ -1,11 +1,11 @@
 import React from 'react';
-import MainContainer from '../containers/Containers'
-import Centering from '../containers/Centering-container'
+import MainContainer from '../Containers/Containers'
+import Centering from '../Containers/Centering-container'
 import Fade from 'react-reveal/Fade'
 import ContactForm from '../ContactForm/ContactForm'
 import { getScrollProps } from '../utils/scrollUtils'
 import { Link, Element } from 'react-scroll'
-import 'src/Contact/Contact.scss'
+import './Contact.scss'
 
 class Contact extends React.Component {
 

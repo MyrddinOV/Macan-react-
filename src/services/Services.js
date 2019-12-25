@@ -1,6 +1,6 @@
 import React from 'react';
-import MainContainer from '../containers/Containers'
-import Centering from '../containers/Centering-container'
+import MainContainer from '../Containers/Containers'
+import Centering from '../Containers/Centering-container'
 import Fade from 'react-reveal/Fade'
 import { Element } from 'react-scroll'
 import './services.scss'
