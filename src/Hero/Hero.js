@@ -1,7 +1,7 @@
 import React from 'react';
 import MainContainer from '../Containers/Containers'
-import './hero.scss'
-import SimpleSliderHero from '../slick-slider/SlickHero'
+import './Hero.scss'
+import SimpleSliderHero from '../SlickSlider/SlickHero'
 import { Element } from 'react-scroll'
 
 

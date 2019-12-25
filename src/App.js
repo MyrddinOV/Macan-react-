@@ -1,6 +1,6 @@
 import React from 'react';
 import 'normalize.css/normalize.css'
-import MainPage from './wrapper/Wrapper'
+import MainPage from './Wrapper/Wrapper'
 import './App.scss';
 
 

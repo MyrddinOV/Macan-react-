@@ -1,8 +1,8 @@
 import React from 'react'
 import MainContainer from '../Containers/Containers'
 import { Link } from 'react-scroll'
-import './header-burger.scss'
-import './header.scss'
+import './HeaderBurger.scss'
+import './Header.scss'
 
 import { getScrollProps } from '../utils/scrollUtils'
 
@@ -93,7 +93,7 @@ class Header extends React.Component {
 
                                 <li className='nav-list_item'>
                                 <Link className='nav-list_link' {...getScrollProps({
-                                        to: 'testimonial'
+                                        to: 'Testimonial'
                                     })}>Testimonial</Link>
                                 </li>
 

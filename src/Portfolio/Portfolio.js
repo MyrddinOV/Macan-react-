@@ -3,8 +3,8 @@ import MainContainer from '../Containers/Containers'
 import Centering from '../Containers/Centering-container'
 import Tiles from './Tiles'
 import Fade from 'react-reveal/Fade'
-import './portfolio.scss'
-import './tiles.scss'
+import 'src/Portfolio/Portfolio.scss'
+import 'src/Portfolio/Tiles.scss'
 
 
 class Portfolio extends React.Component {

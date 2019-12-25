@@ -5,8 +5,8 @@ import Tiles from './Tiles'
 import Fade from 'react-reveal/Fade'
 import { scroller, Element } from 'react-scroll'
 
-import './portfolio.scss'
-import './tiles.scss'
+import './Portfolio.scss'
+import './Tiles.scss'
 
 const mockTileList = [
     {

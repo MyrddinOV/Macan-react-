@@ -1,7 +1,7 @@
 import React from 'react';
 import MainContainer from '../Containers/Containers'
 
-import './footer.scss'
+import './Footer.scss'
 
 
 function Footer() {

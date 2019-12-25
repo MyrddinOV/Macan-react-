@@ -2,9 +2,9 @@ import React from 'react';
 import MainContainer from '../Containers/Containers'
 import Centering from '../Containers/Centering-container'
 import Fade from 'react-reveal/Fade'
-import SimpleSliderTestimonial from '../slick-slider/SlickTestimonial'
+import SimpleSliderTestimonial from '../SlickSlider/SlickTestimonial'
 import { Element } from 'react-scroll'
-import './testimonial.scss'
+import './Testimonial.scss'
 
 
 function Testimonial() {

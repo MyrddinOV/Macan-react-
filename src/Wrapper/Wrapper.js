@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../header/Header'
-import Hero from '../hero/Hero'
-import Services from '../services/Services'
-// import Portfolio from '../portfolio/Portfolio'
-import PortfolioV2 from '../portfolio/PortfolioV2'
-import Testimonial from '../testimonial/Testimonial'
-import Map from '../map/Map'
+import Header from '../Header/Header'
+import Hero from '../Hero/Hero'
+import Services from '../Services/Services'
+// import Portfolio from '../Portfolio/Portfolio'
+import PortfolioV2 from '../Portfolio/PortfolioV2'
+import Testimonial from '../Testimonial/Testimonial'
+import Map from '../Map/Map'
 import Contact from '../Contact/Contact'
-import Footer from '../footer/Footer'
+import Footer from '../Footer/Footer'
 
 function MainPage() {
     return (
