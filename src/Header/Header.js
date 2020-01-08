@@ -19,12 +19,12 @@ class Header extends React.Component {
 
     addOutsideClickListener() {
         document.addEventListener('click', this.handleDocumentClick);
-        document.getElementById('menu').classList.add('is-nav-open')
+
     }
 
     removeOutsideClickListener() {
         document.removeEventListener('click', this.handleDocumentClick)
-        document.getElementById('menu').classList.remove('is-nav-open')
+
     }
 
     onShow() {
@@ -37,7 +37,7 @@ class Header extends React.Component {
 
     onClickOutside() {
         this.setState({ isActive: false });
-        document.getElementById('menu').classList.remove('is-nav-open')
+
     }
 
     handleDocumentClick = event => {
@@ -57,8 +57,8 @@ class Header extends React.Component {
 
 
     render() {
-
         const { isActive } = this.state;
+        const burgerClass = 'burger-menu ' + (isActive ? 'is-nav-open' : '')
         return (
 
             <header >
@@ -74,7 +74,7 @@ class Header extends React.Component {
                         <nav>
                             <ul className='nav-list' id='home'>
                                 <li className='nav-list_item' >
-                                <Link className='nav-list_link' {...getScrollProps({
+                                    <Link className='nav-list_link' {...getScrollProps({
                                         to: 'top'
                                     })} >Home</Link>
                                 </li>
@@ -92,13 +92,13 @@ class Header extends React.Component {
                                 </li>
 
                                 <li className='nav-list_item'>
-                                <Link className='nav-list_link' {...getScrollProps({
+                                    <Link className='nav-list_link' {...getScrollProps({
                                         to: 'testimonial'
                                     })}>Testimonial</Link>
                                 </li>
 
                                 <li className='nav-list_item'>
-                                <Link className='nav-list_link' {...getScrollProps({
+                                    <Link className='nav-list_link' {...getScrollProps({
                                         to: 'contact'
                                     })}>Contact</Link>
                                 </li>
@@ -106,7 +106,7 @@ class Header extends React.Component {
                         </nav>
 
 
-                        <div className='burger-menu' id='menu'>
+                        <div className={burgerClass} id='menu'>
                             {isActive && (
                                 <ul className='nav-list--burger'>
                                     <li className='nav-list_item--burger'>
